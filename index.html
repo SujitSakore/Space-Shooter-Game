@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="icon" href="./image/alien.png">
+    <title>save the Earth</title>
+</head>
+<body>
+    
+    <div id="message">
+        <h2>Instructions</h2>
+        <p>
+            100 aliens attacked the Earth <br>
+            you have to save the earth <br>
+            you have only 200 missiles <br>
+            You can either move or launch missile at a given time <br>
+            <br>
+            <br>
+           1) Use Left arrow key to move rocket to the left. <br>
+           2) Use Right arrow key to move rocket to the right. <br>
+           3) Use Space Or Upper arrow key to fire The missile. <br>
+        </p>
+        <button id="start">Play</button>
+    </div>
+    <div class="score-box">
+        <div id="score">
+            <p>Score</p>
+            <p id="display-score">0</p>
+        </div>
+        <div class="rem">
+            <div id="rem-bullet">
+                <p style="font-size: 1rem;">Bullets Left</p>
+                <p id="display-bullet">200</p>
+            </div>
+            <div id="rem-alien">
+                <p style="font-size: 1rem;">Active aliens</p>
+                <p id="display-alien">100</p>
+            </div>
+        </div>
+    </div>
+    <div class="outer" id="outer">
+        <div class="board" id="board">
+            <div class="rocket" id="rocket"></div>
+            <div class="alien" id="alien"></div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="fire"></button>
+        <button id="left"></button>
+        <button id="right"></button>
+    </div>
+
+    <script defer src="./app.js"></script>
+</body>
+</html>
