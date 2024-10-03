@@ -6,6 +6,7 @@ https://sujitsakore.github.io/Space-Shooter-Game/
 Click the link above to play the game directly in your browser!
 
 📖 How to Play
+
 Movement: Use the arrow keys (← ↑ → ↓) to steer your spaceship.
 Shooting: Press the spacebar to fire your ship's laser at the enemies.
 Objective: Survive for as long as possible by destroying enemy spaceships and avoiding enemy attacks.
